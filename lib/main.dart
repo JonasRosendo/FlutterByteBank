@@ -1,13 +1,7 @@
-import 'package:byte_bank/models/contact.dart';
 import 'package:byte_bank/screens/dashboard.dart';
 import 'package:flutter/material.dart';
 
-import 'database/app_database.dart';
-
-void main() {
-  runApp(const ByteBankApp());
-}
-
+void main() => runApp(const ByteBankApp());
 
 class ByteBankApp extends StatelessWidget {
   const ByteBankApp({Key? key}) : super(key: key);
